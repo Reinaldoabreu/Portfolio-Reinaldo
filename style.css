@@ -1,0 +1,65 @@
+/*estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.limite{
+    max-width: 1280px;
+    margin: 0;
+}
+
+/*estilo do cabeçalho*/
+header{
+    padding: 20px 4%;
+}
+
+header > .limite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header a{
+    color: rgb(110, 110, 110);
+    text-decoration: none; 
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: azure;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none; 
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px; 
+    
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #51ff00;
+}

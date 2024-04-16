@@ -4,159 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reinaldo de abreu </title>
-   <style>
 
-    :root{
-        --cor0:#00E6C9;
-        --cor1:#006FE6;
-        --cor2:#01BAE6;
-
-
-        
-    --fonte-padrao:arial,verdana,helvetica,sans-serif;
-    --fonte-destaque: 'Bebas Neue', sans-serif;
-    --fonte-android: "Android", sans-serif;
-    }
-
-
-
-    *{
-        margin:0px;
-        padding: 0px;
-    }
-
-    body{
-        font-family: 'Permanent Marker', cursive;
-        background-color: var(--cor1);
-        position: relative;
-        min-height: 100vh;
-    }
-
-    header {
-        background: hsl(210, 26%, 52%);
-         height: 40px;
-         padding: 5px;
-        bottom: 0px;
-         width: 100%;
-    }
-
-    header nav{
-        min-width: 300px;
-        max-width: 1000px;
-        margin:auto;
-        border: 1px solid red;
-        text-align: right;
-    } 
-
-    header nav >a{
-        padding: 10px;
-        margin-left: 6px;         
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bolder;
-        font-size: 12px;
-        color: aliceblue;
-        
-       
-    }
-
-    a  {
-        text-decoration: none;
-
-    }
-
-    a:hover{
-      
-  
-    border-radius: 20px;
-    color: #171c20;
-
-    }
-
-    main{
-        background-color: #006FE6;
-        min-width: 300px;
-        max-width: 1000px;
-        margin: auto;
-        margin-top: 30px; 
-    }
-
-
-     main  h1{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: aliceblue;
-        font-size:4em ;
-        font-weight:bold;
-        text-align: center;
-        text-shadow: 3px 3px 0px black;
-  
-     }
-
-     main p {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: aliceblue;
-        font-size: 1.5em;
-        font-weight: bold;
-        text-shadow: 2px 2px 0px black;
-        max-width: 800px;
-        text-align: center;
-        margin: auto;
-     }
-
-
-   footer .rodape{
-    background-color: black;
-    color: aliceblue;
-    position: absolute;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
-    padding: 5px;
-    bottom: 0px;
-    width: 100%;
-    height: 1.5em;
-   }
-
-
- 
-
-   </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 
 <body>
 
-    <header>
-  
+ <header>
+     <div class="limite">
 
-        <nav>
-            <a  href="" target="_blank">INICIO</a>
-    
-               <a href="" target="_blank">SERVIÇOS</a>
-    
-               <a href="" target="_blank">SOBRE MIM</a>
-
-               <a href="" target="_blank">HABILIDADES</a>
-
-               <a href="" target="_blank">PORTFÓLIO</a>
-
-               <a href="" target="_blank">CLIENTES</a>
-    
-               <a href="" target="_blank">CONTATO</a>
-    
-        </nav>
-     
+       <div class="log">
+          <a href="#">
+               <img src="imagens/logo1 (1).png" alt="">
+          </a>
+       </div><!--logo-->
+                
+                 <nav class="menu-desktop">   
+                    <ul>
+                        <li><a  href="#" target="_blank">Inicio</a></li>
+                        <li><a  href="#" target="_blan">Especialidades</a></li>
+                        <li><a  href="#" target="_blank">Sobre</a></li>
+                        <li><a  href="#" target="_blank">Projetos</a></li>
+                    </ul>
+                </nav>
+              <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+              </div>
+            </div><!--interface-->
     </header>
-<main>
-        <article>
-         
-            <h1>REINALDO ABREU</h1>
-            <p>Ola! Seja bem-vindo ao meu mundo do Desenvolvimento Web. Conheça alguns dos meus trabalhos que eu fiz nessa  minha caminhada de estudos na área da programação.Bora lá!? </p>
-    
-      
-         </article>
- 
-</main>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="limite">
+                 <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>REINALDO ABREU .</h1>
+                        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis fugiat cupiditate at sunt fuga. Doloribus est sapiente quidem officia adipisci sequi corrupti nam laudantium provident nesciunt error, doloremque in minus?</P>
+
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="img-topo-site">
+                         <img src="imagens/rei1.png" alt="">
+                    </div>
+                 </div>
+            </div><!--limite-->
+        </section><!--TOPO DO SITE-->
+    </main>
 
 <footer>
     <div class="rodape">
