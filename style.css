@@ -15,6 +15,10 @@ html{
     scroll-behavior: smooth;
 }
 
+p{
+    font-size: 22px;
+}
+
 .flex{
     display: flex
 }
