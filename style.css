@@ -368,53 +368,6 @@ section.portfolio .flex{
     opacity: 1;
 }
 
-/*estilo do formulario de contato*/
-
-section .formulario{
-    padding: 80px 4%;
-}
-
-form{
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 40px;
-}
-
-form input, form textarea{
-    width: 100%;
-    background-color: rgb(78, 78, 78);
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 15px;
-    color: aliceblue;
-    font-size: 18px;
-}
-
-form textarea{
-    resize: none;
-    
-}
-
-form .btn-enviar{
-    margin-top: 20px;
-    text-align: center;
-}
-
-form .btn-enviar input{
-    width: 120px;
-    background-color: #00ff08;
-    color: black;
-    font-weight: 700;
-    cursor: pointer;
-    transition: .2s;
-}
-
-
 
 /*estilo do rodape*/
 footer{
