@@ -13,3 +13,27 @@ menu.addEventListener('click', ()=>{
 overlay.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
+
+
+
+window.addEventListener('scroll', function() {
+    const scrollToTopBtn = document.getElementById('scroll-to-top-btn');
+    const menuPrincipal = document.getElementById('menu-principal');
+
+    if (window.scrollY > menuPrincipal.clientHeight) {
+        scrollToTopBtn.style.display = 'block';
+    } else {
+        scrollToTopBtn.style.display = 'none';
+    }
+});
+
+document.getElementById('scroll-to-top-btn').addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+
+
+

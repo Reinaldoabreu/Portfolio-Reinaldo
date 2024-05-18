@@ -223,6 +223,24 @@ section.topo-do-site .flex{
     }
 }
 
+#scroll-to-top-btn{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    font-size: 30px;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+   
+}
+
+#scroll-to-top-btn:hover {
+    background-color: #555;
+}
+
 /*estilos das especialidades*/
 section.especialidades{
     padding: 40px 4%;
@@ -395,6 +413,8 @@ form .btn-enviar input{
     cursor: pointer;
     transition: .2s;
 }
+
+
 
 /*estilo do rodape*/
 footer{

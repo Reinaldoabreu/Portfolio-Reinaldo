@@ -15,7 +15,7 @@
 
 <body>
 
- <header>
+ <header id="menu-principal">
      <div class="limite">
 
        <div class="log">
@@ -87,6 +87,10 @@
                 </div>
             </div><!--limite-->
         </section><!--TOPO DO SITE-->
+
+        <button id="scroll-to-top-btn"> 
+            <i class="bi bi-arrow-up-circle-fill"></i>
+        </button>
 
         <section class="especialidades" id="iespecialidade">
             <div class="limite">
@@ -190,18 +194,22 @@
             <div class="limite">
                 <h2 class="titulo">FALE <span>COMIGO.</span></h2>
 
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome completo" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail" required>
-                    <input type="text" name="" id="" placeholder="Seu celular" >
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
-                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-
+                <form action="" id="email-form">
+                    <input type="text" name="" id="nom" placeholder="Seu nome completo" required>
+                    <input type="text" name="" id="ema" placeholder="Seu e-mail" required>
+                    <input type="text" name="" id="cel" placeholder="Seu celular" >
+                    <textarea name="" id="men" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
                 </form>
+                <div id="form-response" class="hidden"></div>
             </div>
         </section>
     
     </main>
+
+
 
 <footer>
         <div class="limite">
