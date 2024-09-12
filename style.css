@@ -39,6 +39,7 @@ p{
     transition: .2s;
 }
 
+
 h2.titulo{
     color: aliceblue;
     font-size: 38px;
@@ -189,6 +190,7 @@ section.topo-do-site .flex{
 .topo-do-site .txt-topo-site p{
     color: aliceblue;
     margin: 40px 0%;
+ 
 }
 
 .img-topo-site img{
